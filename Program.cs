@@ -6,6 +6,8 @@
 //Fecha de registro de un cliente
 
 var fechaProximoPago = GetPeriodoB(new DateTime(2020, 02,29), 12);
+//Output: 28/02/2021 12:00:00 a. m.
+
 System.Console.WriteLine(fechaProximoPago);
 
 DateTime GetPeriodoB(DateTime PeriodoA, int Meses)
