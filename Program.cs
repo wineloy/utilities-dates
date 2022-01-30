@@ -3,8 +3,6 @@
 // Control de fechas para periodos
 ///
 
-//Fecha de registro de un cliente
-
 var fechaProximoPago = GetPeriodoB(new DateTime(2021, 02,28), 12);
 //Output: 28/02/2022 12:00:00 a. m.
 
