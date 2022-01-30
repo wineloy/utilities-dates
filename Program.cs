@@ -5,8 +5,8 @@
 
 //Fecha de registro de un cliente
 
-var fechaProximoPago = GetPeriodoB(new DateTime(2020, 02,29), 12);
-//Output: 28/02/2021 12:00:00 a. m.
+var fechaProximoPago = GetPeriodoB(new DateTime(2021, 02,28), 12);
+//Output: 28/02/2022 12:00:00 a. m.
 
 System.Console.WriteLine(fechaProximoPago);
 
